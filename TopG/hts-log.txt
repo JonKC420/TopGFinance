@@ -1,0 +1,12 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 16 Sep 2022 19:29:43 at https://trongrace.space/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://trongrace.space/ -O1 "C:\Users\17859\Desktop\TopG" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:30:04	Error: 	"Not Found" (404) at link https://trongrace.space/assets/img/rounder1.png (from https://trongrace.space/assets/css/style532d.css?v=1626369180)
+
+HTTrack Website Copier/3.49-2 mirror complete in 22 seconds : 76 links scanned, 74 files written (5042083 bytes overall) [3927590 bytes received at 178526 bytes/sec], 1613455 bytes transferred using HTTP compression in 28 files, ratio 28%, 5.9 requests per connection
+(1 errors, 0 warnings, 0 messages)

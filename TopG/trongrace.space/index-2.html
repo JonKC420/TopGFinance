@@ -1,0 +1,1054 @@
+
+
+<!doctype html>
+    
+    <html lang="en">
+
+<!-- Mirrored from trongrace.space/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Sep 2022 00:30:02 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TronGrace</title>
+    <meta name="description" content="TronGrace.space Next generation community program">
+    <meta name="keywords" content="dApp, tron network, tron platform, defi, decentralized network program, TronGrace, TronGrace.space">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.html">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+	
+	
+    <link rel="stylesheet" href="assets/css/style532d532d.css?v=1626369180">
+
+   
+    <link rel="stylesheet" href="../maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+	
+	
+
+        <style>
+        @media screen and (max-width: 992px) {
+            #content #code .whats-link a .right-numb {
+                width: 150px;
+            }
+            #mobileMenu .menu .deposit{
+                width:100% !important;
+            }
+            
+        }
+        
+        @media screen and (max-width:576px){
+            .mob-min{
+                width:40px !important;
+            }
+            #exampleModal .modal-dialog .modal-content .item-boxes .item-min.bg-min, #exampleModal2 .modal-dialog .modal-content .item-boxes .item-min.bg-min{
+                padding-left:15px !important;
+            }
+            .signal{
+                width:35px !important;
+                margin-right:0 !important;
+            }
+            .top-item.pl-3{
+                padding-left:0 !important;
+            }
+            #exampleModal .modal-dialog .modal-content .item-boxes .item-min .top-item .list, #exampleModal2 .modal-dialog .modal-content .item-boxes .item-min .top-item .list{
+                padding-left:8px !important;
+            }
+            .list.float-left.ml-0.pl-3{
+                width:80% !important;
+            }
+            .modal-dialog .linked{
+                font-size:13px !important;
+            }
+            #exampleModal .modal-dialog .linked, #exampleModal2 .modal-dialog .linked{
+                width:100% !important;
+            }
+        
+           
+        }
+        
+            
+            #exampleModal .modal-dialog .modal-content .item-boxes .item-min .top-item .list p, #exampleModal2 .modal-dialog .modal-content .item-boxes .item-min .top-item .list p{
+                font-size:11.5px;
+            }
+            
+            #exampleModal .modal-dialog .modal-content .item-boxes .item-min .top-item .list, #exampleModal2 .modal-dialog .modal-content .item-boxes .item-min .top-item .list{
+                margin-left:5px !important;
+            }
+            footer .footer-box .what-links a{
+                pointer-events:none
+            }
+        .loader {
+              border: 16px solid #f3f3f3;
+              border-radius: 50%;
+              border-top: 16px solid #ff002e;
+              width: 30px;
+              height: 30px;
+              -webkit-animation: spin 2s linear infinite; /* Safari */
+              animation: spin 2s linear infinite;
+            }
+            
+            /* Safari */
+            @-webkit-keyframes spin {
+              0% { -webkit-transform: rotate(0deg); }
+              100% { -webkit-transform: rotate(360deg); }
+            }
+            
+            @keyframes spin {
+              0% { transform: rotate(0deg); }
+              100% { transform: rotate(360deg); }
+            }
+    </style>
+        <!-- Popuptelegram -->
+
+    <link rel="stylesheet" href="../stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="../code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+    	$(document).ready(function(){
+    		$("#myModal").modal('show');
+    	});
+    </script>
+</head>
+<body>
+
+        
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <div class="text-center">
+                    <h2>PERSONAL WALLET</h2>
+                    <p>Your <img src="assets/img/tronicon.png" alt="">
+                        <span>TRX</span> wallet address:</p>
+                </div>
+                <form action="#" method="post">
+                    <input class="form-control" id="walletAddress" placeholder="loading" readonly>
+                </form>
+
+
+                <div class="item-boxes">
+                    <div class="row">
+                        <div class="col-md-6 item-box">
+                            <div class="item-min">
+                                <div class="top-item">
+                                    <img src="assets/img/icon/item-1.png" class="float-left" alt="">
+                                    <span class="float-left">Your current daily rewards:</span>
+                                </div>
+                                <strong>+</strong><strong id="userPercentRate">0</strong><strong>%</strong>
+                            </div>
+                        </div>
+                        <div class="col-md-6 item-box">
+                            <div class="item-min bg-min">
+                                <div class="top-item">
+                                    <img src="assets/img/item-2.png" class="float-left mob-min" alt="">
+                                    <div class="list float-left">
+                                        <p class="mb-0">
+                                            Basic Rewards:+1%<br>
+                                            Hold-bonus: <b>+</b><b
+                                                    id="holdPercentRate">0</b><b>%</b><br>
+                                            Contract bonus: <b>+</b><b>0.0%</b><b id="contractBonusRate" style="visibility: hidden">0</b><br>
+                                            Leader bonus: <b>+</b><b
+                                                    id="leaderBonusRate">0</b><b>%</b><br>
+                                            Community bonus : <b>+</b><b id="communityBonusRate">0</b><b>%</b><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <hr>
+                        </div>
+                        <div class="col-md-6 item-box">
+                            <div class="item-min">
+                                <div class="top-item">
+                                    <span class="float-left"> Available withdraw balance</span>
+                                </div>
+                                <div class="egs">
+                                    <img src="assets/img/icon/item-3.png" alt="">
+                                    <strong id="userAvailable">0</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 item-box">
+                            <div class="item-min bg-right">
+                                <div class="top-item text-center">
+                                    <span> Request withdraw</span>
+                                    <a href="#" id="withdrawbutton"><i class="fa fa-link"></i> WITHDRAW                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="with-text">
+                    <p>
+                        Click Withdraw button, and you will get instantly all your deposits earnings with a single transaction. Your personal hold-bonus will be reset. When withdrawing then you should have between 4-100 TRX on your wallet balance for blockchain fees. Withdraw fee increases gradually as the number of deposits increases.                    </p>
+                </div>
+
+                <hr>
+
+                <div class="item-boxes mb-2">
+                    <div class="row">
+                        <div class="col-md-6 item-box mb-4">
+                            <div class="item-min">
+                                <div class="top-item">
+                                    <span class="float-left"> Total Deposited</span>
+                                </div>
+                                <div class="egs">
+                                    <img src="assets/img/icon/item-3.png" alt="">
+                                    <strong id="totalInvested">0</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 item-box mb-4">
+                            <div class="item-min bg-right">
+                                <div class="top-item">
+                                    <span class="float-right text-right">Number of deposits: <span
+                                                style="color: #6daefe;" id="totalNumberOfDeposits">0</span> <br>
+                                         <br>  <span style="display:none;"
+                                                                                 id="userCheckpoint"></span></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 item-box">
+                            <div class="item-min">
+                                <div class="top-item">
+                                    <span class="float-left">Total earned</span>
+                                </div>
+                                <div class="egs">
+                                    <img src="assets/img/icon/item-3.png" alt="">
+                                    <strong id="totalEarned">0</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 item-box">
+                            <div class="item-min bg-right">
+                                <div class="top-item text-right">
+                                    <span class="float-right">Total withdrawn</span>
+                                </div>
+                                <div class="egs float-right">
+                                    <strong class="mr-2" id="totalWithdrawn">0</strong>
+                                    <img style="transform: scale(-1, 1);margin-right: 0;"
+                                         src="assets/img/icon/item-3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+
+                <div class="referral-link">
+                    <h5>COPY REFERRAL LINK</h5>
+                    <input type="text" id="reflinkdisplay" placeholder="loading" readonly>
+                    <a href='javascript:copyFunction()' onclick="myFunction()"><i class="fa fa-link"></i> COPY</a>
+                    <p>
+                        Share this link with your partners to get referral rewards <br>
+                        You should have active deposit to unlock affiliate bonuses!                     </p>
+                </div>
+<script>
+function myFunction() {
+  var copyText = document.getElementById("reflinkdisplay");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied : " + copyText.value);
+}
+</script>
+                <div class="item-boxes ">
+                    <div class="row">
+                        <div class="col-md-6 item-box mb-2">
+                            <div class="item-min">
+                                <div class="top-item">
+                                    <span class="float-left">Referral rewards:</span>
+                                </div>
+                                <div class="egs">
+                                    <img src="assets/img/icon/item-3.png" alt="">
+                                    <strong id="refRewards">0</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 item-box mb-2">
+                            <div class="item-min bg-right">
+                                <div class="top-item pl-3">
+                                    <img src="assets/img/icon/signal.png" class="mt-3 signal float-left" alt="">
+                                    <div class="list float-left ml-0 pl-3" style="width: 75%;">
+                                        <p class="mb-0 w-50  float-left" style="line-height: 15px;">
+                                            1st Level: <b id="ref1"> 0 </b><br>
+                                            2nd Level: <b id="ref2">0</b><br>
+                                            3rd Level: <b id="ref3">0</b><br>
+                                            4th Level: <b id="ref4"> 0</b><br>
+                                            5th Level: <b id="ref5">0</b><br>
+                                            6th Level: <b id="ref6">0</b>
+                                        </p>
+                                        <p class="mb-0 w-50  float-left" style="line-height: 15px;">
+                                            7th Level: <b id="ref7">0 </b><br>
+                                            8th Level: <b id="ref8">0</b> <br>
+                                            9th Level: <b id="ref9">0</b> <br>
+                                            10th Level: <b id="ref10">0</b> <br>
+                                            11th Level: <b id="ref11">0</b>
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                            <a href="https://t.me/successpowerteam" target=_blank class="linked"><i class="fa fa-link"></i> PROMO MATERIALS</a>
+                            <!--<a href="http://TronGrace.live/" target=_blank class="linked"><i class="fa fa-link"></i> TronGrace NETWORK</a>-->
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <div class="text-center">
+                    <h2>MAKE NEW CONTRIBUTION</h2>
+                    <p class="mt-4">Specify deposit <span
+                                class="ballon">TRX</span> amount here:</p>
+                </div>
+                <form action="#" method="post">
+                    <input type="text" class="form-control" id="trxValue1" value="1000">
+                </form>
+
+
+                <span id="contributeAddresss" style="color:#fff; display:flex;">Loading...<div class="loader" ></div></span>
+                <div class="referral-link text-center" id="contributeAddress" style="display:none;"> <a href="#" id="investButton1"><i class="fa fa-link"></i> CONTRIBUTION</a></div>
+
+
+                <div class="what-lorem">
+                    <img src="assets/img/user%20(6).png" alt=""> <span>upline partner wallet:</span><br>
+                    <a href="#" id="upline">No upline</a>
+                </div>
+
+                <hr>
+
+                <ul class="lorem-ul">
+                    <li><i class="fa fa-warning"></i> <span>IMPORTANT!</span>  Do not forget about blockchain fee! You should have <b>40-60 TRX </b> more on your wallet, or your transaction will get *out of energy* status!                    </li>
+                    <li><i class="fa fa-check"></i> Minimum contribution amount <span>100 TRX</span>
+                        
+                    </li>
+                    <li><i class="fa fa-check"></i>  We are working only with:                        <span>TRON (TRX) </span> cryptocurrency</li>
+                    <li><i class="fa fa-check"></i> Your contribution will be activated after                        <span>1 confirmation </span> in blockchain</li>
+                    <li><i class="fa fa-check"></i> Withdrawable rewards come instantly to your secure wallet balance’, which is accessible only to You</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="mobileMenu">
+    <a href="#" class="closes"><i class="fa fa-times-circle-o"></i></a>
+    <div class="menu">
+        <a class="normal-link scroll" href="#TronGrace">About us</a>
+   <!--     <a class="normal-link scroll" href="#code">Secure Platform</a> -->
+        <a class="normal-link  scroll" href="#papers">Marketing Plan</a>
+        <!--<a class="normal-link" href="representative.html" target=_blank >Representatives</a>-->
+        <a class="normal-link" data-toggle="modal" data-target="#exampleModal"
+           href="#">Personal Wallet</a>
+       <a class="normal-link" data-toggle="modal" data-target="#exampleModal2"
+                       href="#" >Contribution</a>
+	
+    </div>
+</div>
+
+<header >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-5 col-6 logo">
+                <a href="index-2.html" style="display: inline-block; position: relative; z-index: 99;"><img src="assets/img/logo-footer.png" alt=""></a>
+            </div>
+            <div class="col-md-9 col-sm-7 col-6 collapses">
+                <div class="float-right">
+                    <a class="normal-link scroll" href="#TronGrace">About us</a>
+                     <!-- <a class="normal-link scroll" href="#code">Secure Platform</a> -->
+                    <!--<a class="normal-link" href="representative.html">Representatives</a> -->
+                    <a class="normal-link  scroll" href="#papers">Marketing Plan</a>
+                    <a class="normal-link" data-toggle="modal" data-target="#exampleModal"
+                       href="#" >Personal Wallet</a>
+                    <a class="deposit" data-toggle="modal" data-target="#exampleModal2"
+                       href="#">Contribution</a>
+                </div>
+                <button id="hamburger_btn" type="button" class="btn btn-outline-light btn-sm"><i class="fa fa-bars"></i>
+                </button>
+            </div>
+                        
+            <div class="col-md-6 header-left">
+                <h2 style="text-transform: uppercase">
+                    <span>ROI Smart Contract </span></h2><h4 style="font-size:32px; color: #fff;">
+                    100% Decentralized <h4>
+                <p>
+
+                    TronGrace is the perfect combination of  Digital Technology, High Security and Community Program              
+      <!--          
+	<div id="timer" class="col-md-9 ">			
+ <time id="count-down" datetime="2014-01-06T00:00:00"></time>
+	</div>  -->
+				 </p> 
+				
+				
+				<!--
+                <h2>
+                    <span style="font-size:42px;" >Launching In </span></h2>
+                    <p id="demo" style="font-size:36px; color: #fff;"></p>
+					-->
+                 <a data-toggle="modal" data-target="#exampleModal" href="#"
+                   class="btn-purple">Personal Wallet</a>
+                <a href="#" data-toggle="modal" data-target="#exampleModal2"
+                   class="btn-white">Contribution</a>
+                  <br> </br>
+                 <a href="https://tronscan.org/#/contract/TQ1nzLrLhQauF5zZrJUy7SZHQr57P2Vo3d/code" target=_blank
+                   class="btn-white">Check Contract</a>  
+                <a href="TronGrace.pdf" target=_blank
+                   class="btn-purple" style="margin-left: 10px;">Presentation </a>
+                
+                
+                
+                
+               <!-- 
+                <a href="TronGrace.pdf" target=_blank
+                   class="btn-purple">Presentation</a>
+                <a href="#" target=_blank
+                   class="btn-white">Check Contract</a> -->
+            </div>
+            
+            
+            <div class="col-md-6 header-right">
+                <div class="video">
+                    <img src="assets/img/video.png" class="img-fluid" alt="">
+                    <a href="#" target=_blank><i class="fa fa-play"></i></a>
+                </div>
+            </div>
+                    </div>
+    </div>
+</header>
+
+
+
+
+
+<nav class="nav social-fixed" style="justify-content: center;">
+    
+    <a class="nav-link bg-tel py-3 px-1 rounded d-flex align-items-center justify-content-center text-white mb-2" href="https://t.me/successpowerteam"><i class="la la-telegram fa-lg" target=_blank></i></a>
+   <!--   <a class="nav-link bg-tel py-3 px-1 rounded d-flex align-items-center justify-content-center text-white mb-2" href="https://t.me/TronGraceOfficial"><img src="assets/img/icon/robot.png" width="30px" alt="ChatBot"></a>   -->
+    <a class="nav-link bg-yt py-3 px-1 rounded d-flex align-items-center justify-content-center text-white mb-2" href="#" target=_blank ><i class="la la-youtube fa-lg	"></i></a>
+
+      
+</nav>
+<div id="content">
+
+
+    <div id="TronGrace">
+        <div class="container">
+                              <div class="row" style="margin-top: 60px;">
+
+                <div class="col-md-12 mt-5 mb-3 default-title">
+                    <h3>Why Choose  <span>TronGrace</span> Platform?</h3>
+                </div>
+
+                <div class="col-md-4 tron-box">
+                    <div class="tron-min">
+                        <img src="assets/img/icon/trans.svg" width="55" alt="">
+                        <h4>TRANSPARENCY</h4>
+                        <hr>
+                        <p class="mb-0">
+You can transparently view all transactions and details that have been made since the date the Smart Contract was created.                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 tron-box">
+                    <div class="tron-min">
+                        <img class="filter" src="assets/img/icon/decentralized.svg" width="52" alt="">
+                        <h4>DECENTRALIZED</h4>
+                        <hr>
+                        <p class="mb-0">
+                            TronGrace is not managed by anyone, including its own software team. It is developed as a fully automatic system. Nobody has access to funds. Your funds are secured between you and the smart contract.                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 tron-box">
+                    <div class="tron-min">
+                        <img src="assets/img/icon/save.png" width="47" alt="">
+                        <h4>HIGH SECURITY</h4>
+                        <hr>
+                        <p class="mb-0">
+                            Smart contracts are a part of Blockchain technology. Blockchain is a secure technology that no hacker can access.                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+        <div id="code">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 mt-5 line-12">
+                    <div class="line"></div>
+                    <img src="assets/img/icon/cube.png" alt="">
+                    <div class="line mr"></div>
+                </div>
+                <div class="col-md-11 mt-4 pl-0">
+                    <div class="report">
+                        <img class="codes" src="assets/img/coding.png" alt="">
+                        <div class="code-box">
+                            <h4>Audit Report <br>
+                                and Smart Contract Code </h4>
+                            <div class="code-min">
+                                <p class="mb-0">
+                                    <span class="d-block mb-2">contract TronGrace {
+    using SafeMath for uint;</span>
+
+                                    uint constant public DEPOSITS_MAX = 300;
+                                    <span class="d-block mb-2">    uint constant public INVEST_MIN_AMOUNT = 100 trx;
+</span>
+                                    <span class="d-block">    uint constant public INVEST_MAX_AMOUNT = 4000000 trx; <span
+                                            class="d-block">uint constant public BASE_PERCENT = 100;</span></span>
+                                    <span class="d-block"><span
+                                            class="d-block"></span>     uint[] public REFERRAL_PERCENTS = [1000, 400, 200, 100, 100, 50, 50, 40, 30, 20, 10];</span>
+                                    <span class="d-block"><span class="d-block"></span>  uint constant public MARKETING_FEE = 500;</span>
+
+                                    <span class="d-block"> </span>
+                                    
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-link">
+                            <img src="assets/img/logo-2.png" alt="">
+                                <a href="https://hazecrypto.net/audit/trongrace" target=_blank >Audit Report</a>
+                           <!-- <a href="#" target=_blank >2-Audit Report</a>  -->
+                        </div>
+                    </div>
+                    <div class="whats-link">
+                        
+                        
+                        <div class="what-box">
+                            <strong>Total Contributed Amount</strong>
+                            <a href="#" class="not-click" >
+                               <span class="right-numb">
+                                   <span id="totalInvested1" class="number">0</span>
+                               <b> Current Bonus : <i id="userPercentRate1"> 0%</i></b>
+                                       </span>
+                                <img src="assets/img/link.png" alt="">
+
+                            </a>
+                        </div> 
+                        
+                        <div class="what-box mt-3">
+                            <strong>Total Active Participants</strong>
+                            <a href="#" class="not-click" >
+                               <span class="right-numb">
+                                   <span id="totalUsers" class="number numb-copy">0</span>
+                                 <!--   <b>Current Bonus: <i id="userPercentRate1">0</i></b> -->
+                                       </span>
+                                <img src="assets/img/link.png" alt="">
+
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-11">
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7 pl-0">
+                            <div class="whats-text">
+                                <h5>Audit Report and Smart Contract Code <span></span> </h5>
+                                <p class="mb-0">
+                                    The codes of the smart contract have been audited by an independent third party audit firm.                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lines">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mt-5 line-12">
+                    <div class="line"></div>
+                    <img src="assets/img/icon/cube.png" alt="">
+                    <div class="line mr"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="downloads">
+        <div class="white-dot"></div>
+        <div class="blue-dot"></div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 down-text-left">
+                    <p class="mb-0">
+                        <span>How </span> it                        works?                    </p>
+                </div>
+                <div class="col-md-6 down-text-right">
+                    <p class="mb-0">
+
+
+                    </p>
+                </div>
+
+                <div class="col-md-3 download-box">
+                    <div class="download-min">
+                        <div class="circle">
+                            <img src="assets/img/icon/cube-white.png" alt="">
+                        </div>
+                        <div class="top-title">
+                            <hr>
+                            <div class="left-title">
+                                01
+                            </div>
+                            <div class="right-title">
+                                <strong>
+                                    Get TRON (TRX)                                </strong>
+                            </div>
+                        </div>
+                        <div class="title-content">
+                            <hr>
+                            <p>
+                                You can easily acquire TRX from the most popular  platforms.  After purchasing TRX, you can transfer it to your personal wallet, and then transfer it to TronGrace smart-contract address.                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 download-box">
+                    <div class="download-min">
+                        <div class="circle">
+                            <img src="assets/img/icon/download_(1).png" alt="">
+                        </div>
+                        <div class="top-title">
+                            <hr>
+                            <div class="left-title">
+                                02
+                            </div>
+                            <div class="right-title">
+                                <strong>
+                                   Download the wallet app for Browser or Mobile                                </strong>
+                            </div>
+                        </div>
+                        <div class="title-content">
+                            <hr>
+                            <p>
+                                We recommend to use: TronLink / TronMask browsers extensions, or Klever  mobile app.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 download-box">
+                    <div class="download-min">
+                        <div class="circle">
+                            <img src="assets/img/icon/document.png" alt="">
+                        </div>
+                        <div class="top-title">
+                            <hr>
+
+                            <div class="left-title">
+                                03
+                            </div>
+                            <div class="right-title">
+                                <strong>
+                                    Send TRX to our Smart Contract
+                                </strong>
+                            </div>
+                        </div>
+                        <div class="title-content">
+                            <hr>
+                                <h4>
+                                    <a class="deposit" data-toggle="modal" data-target="#exampleModal2"   href="#">
+                                        <center class="cont">contribution</center>
+                                    </a>
+                                </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 download-box">
+                    <div class="download-min">
+                        <div class="circle">
+                            <img src="assets/img/icon/investment.png" alt="">
+                        </div>
+                        <div class="top-title">
+                            <hr>
+                            <div class="left-title">
+                                04
+                            </div>
+                            <div class="right-title">
+                                <strong>
+                                    Start Earning
+                                </strong>
+                            </div>
+                        </div>
+                        <div class="title-content">
+                            <hr>
+
+                            <p>
+                                Congratulations. You have joined the unique world of TronGrace. You can find all your personal information on Wallet Statistics page and you can withdraw your money from this screen whenever you want.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="whats">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mt-3 line-12">
+                    <div class="line"></div>
+                    <img src="assets/img/icon/cube.png" alt="">
+                    <div class="line mr"></div>
+                </div>
+                <div class="col-md-12 default-title">
+                    <h3>Communıty Program</h3>
+                </div>
+                <div class="col-md-4 what-box">
+                    <div class="what-min">
+                        <img src="assets/img/icon/cube-white.png" alt="">
+                        <span>Minimum contribution amount:</span>
+                        <strong>100 TRX</strong>
+                    </div>
+                </div>
+                <div class="col-md-4 what-box">
+                    <div class="what-min">
+                        <img src="assets/img/icon/cube-white.png" alt="">
+                        <span>Maximum contribution:</span>
+                            <strong>4.000.000 TRX</strong>
+                    </div>
+                </div>
+                <div class="col-md-4 what-box">
+                    <div class="what-min">
+                        <img src="assets/img/icon/cube-white.png" alt="">
+                        <span>Total Rewards:</span>
+                        <strong>200%</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="papers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mt-5 line-12">
+                    <div class="line"></div>
+                    <img src="assets/img/icon/cube.png" alt="">
+                    <div class="line mr"></div>
+                </div>
+
+                <div class="col-md-12 mb-4 mt-2 default-title">
+                    <h3></h3>
+                </div>
+                <div class="col-md-6 paper-left">
+                    <img src="assets/img/paper.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 paper-right">
+                    <div class="row">
+                        <div class="col-md-12 paper-box">
+                            <div class="paper-min">
+                                <img src="assets/img/icon/high.svg" style="transform: rotate(90deg)" width="30" alt="">
+                                <h4>BASIC REWARDS RATE:</h4>
+                                <p>+1% EVERY 24 HOURS - TronGrace  smart-contract calculate rewards up to every contribution since the date it was made, every day +1%.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 paper-box">
+                            <div class="paper-min">
+                                <img src="assets/img/icon/hand.svg" width="30" alt="">
+                                <h4>PERSONAL HOLD-BONUS:</h4>
+                                <p>When you do not withdraw money, your rewards rate increases by 0.1% every 24 hours. ( Max 1%)                                 </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 paper-box">
+                            <div class="paper-min">
+                                <img src="assets/img/icon/incentive.svg" width="30" alt="">
+                                <h4>LEADER BONUS:</h4>
+                                <p>Add +0.1 additional fee every time the platform distributes 1 billion TRX Referral rewards (Max 0.5%) </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 paper-box">
+                            <div class="paper-min">
+                                <img src="assets/img/icon/money.svg" width="30" alt="">
+                                <h4>COMMUNITY BONUS:</h4>
+                                <p>Earn +0.1 additional reward for every 10 million active users on the platform (Max 0.5%)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 paper-box">
+                            <div class="paper-min">
+                                <img class="bonus" src="assets/img/icon/bonus.svg" width="30" alt="">
+                                <h4>CONTRACT TOTAL AMOUNT BONUS:</h4>
+                                <p>Get + 0.2% additional reward for every 1 billion TRX on Smart Contract Balance. (Max %1)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="affiliate">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 line-12">
+                    <div class="line"></div>
+                    <img src="assets/img/icon/cube.png" alt="">
+                    <div class="line mr"></div>
+                </div>
+                <div class="col-md-6 ref-link">
+                    <div class="row">
+                        <div class="col-md-3  col-sm-3 col-12 ref-box">
+                            <a href="#" class="active">
+                                <img src="assets/img/icon/commision.png" alt="">
+                                <strong>Referral <span class="d-block"></span></strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">01</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">10%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">02</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">4%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">03</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">2%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-6 hide-sm ref-box">
+                            <a href="#">
+                                <span class="numb">07</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">0.5%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 hide-sm col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">06</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">0.5%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 hide-sm col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">05</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">1%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">04</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">1%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 hide-pc col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">05</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">1%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 hide-pc col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">06</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">0.5%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 hide-pc col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">07</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">0.5%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">08</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">0.4%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">09</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">0.3%</strong>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-6 ref-box">
+                            <a href="#">
+                                <span class="numb">10</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">0.2%</strong>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 col-12 ref-box">
+                            <a href="#">
+                                <span class="numb">11</span>
+                                <span class="text">Level</span>
+                                <strong class="d-block">0.1%</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="program">
+            <div class="row m-0">
+                <div class="col-md-6"></div>
+                <div class="col-md-6  pr-0">
+                    <div class="program-box">
+                        <div class="program-text">
+                            <img src="assets/img/icon/affiliate-marketing.png" alt="">
+                            <h5>Affiliate Program</h5>
+                            <p>
+                               An affiliate program designed to suit very large teams can generate a significant increase in total revenue. Referral rewards instantly come out of the smart contract into your main wallet where only You have your private key.                                <br>Note: All Affiliate revenue is automatically distributed to wallets.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 footer-box" style="align-self: center;">
+                <a href="#" class="logo-mb hide-mb"><img src="assets/img/logo-footer.png" class="img-fluid" alt=""></a>
+
+                <ul class="social">
+                    <li>
+                        <a href="https://t.me/successpowerteam" target=_blank>
+                            <span class="left-social"><img src="assets/img/icon/paper-plane.png" width="21"
+                                                           alt=""></span>
+                            <span class="right-social">
+                            Main Telegram Group:
+                            <strong>TronGraceoffical</strong>
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target=_blank>
+                            <span class="left-social"><img src="assets/img/icon/youtube.png" width="19" alt=""></span>
+                            <span class="right-social">
+                              Youtube Channel:
+                            <strong>TronGrace Official</strong>
+                        </span>
+                        </a>
+                    </li>
+					<!--    <li>
+                        <a href="#">
+                            <span class="left-social"><img src="assets/img/icon/dots.png" width="18" alt=""></span>
+                            <span class="right-social">
+                              E-Mail Support:
+                            <strong>info@TronGrace.space</strong>
+                        </span>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="col-md-4 footer-box text-center">
+                <a href="#" class="logo"><img src="assets/img/logo-footer.png" class="img-fluid" alt=""></a>
+                <p class="copyright">© 2021 All Rights Reserved TronGrace.space</p>
+                <p class="copyright"> </p>
+                
+
+                
+                
+                
+
+                <a href="https://tronscan.org/#/contract/TQ1nzLrLhQauF5zZrJUy7SZHQr57P2Vo3d/code" target=_blank class="link"> 
+                <span id="p1">TQ1nzLrLhQauF5zZrJUy7SZHQr57P2Vo3d</span></a>
+
+                <div class="dropdown show">
+         
+
+                 
+                </div>
+
+            </div>
+
+            <div class="col-md-4 footer-box text-right" style="align-self: center;">
+                <div class="chat_wrapper">
+                    <a href="https://t.me/successpowerteam" target=_blank class="chat_box">
+                        <i class="fa fa-link"></i>
+                        <span class="text">TronGrace Chat</span>
+                        <span class="robocop"><img src="assets/img/icon/robot.png" alt=""></span>
+                    </a>
+                </div>
+				
+            <!--    <div class="what-links">
+                    <a href="#">What can I learn with ChatBot?</a>
+                    <a href="#">Marketing Materials in Other Languages</a>
+                    <a href="#">Country Leaders</a>
+                    <a href="#">Telegram Groups in Other Languages</a>
+                    <a href="#">How does it work ?</a>
+                    <a href="#">Support Personnel</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</footer>
+<script>const sevenRandom = Math.floor(100000 + Math.random() * 9000000);</script>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/design532db51f.js?v=bcdnh"></script>
+<script src="assets/js/designweb30ef5.js?version=345dc"></script>
+<script src="../unpkg.com/sweetalert%402.1.2/dist/sweetalert.min.js"></script>
+
+</body>
+
+<!-- Mirrored from trongrace.space/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Sep 2022 00:30:02 GMT -->
+</html>
